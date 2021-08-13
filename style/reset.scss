@@ -1,0 +1,32 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box; // chiều dài element bao gom border
+}
+
+// Xóa dấu gạch chân bên dưới
+a{
+    text-decoration: none;
+}
+
+// Bỏ cái kí tự trong link
+ol, ul{
+    list-style: none;
+}
+
+// Đường dẫn thì để bàn tay
+
+
+input{
+    border: none; 
+    // Bo border cho input
+    outline: none;
+    // Bo border cho input khi click mouse
+}
+
+input, button {
+    outline: none;
+    border: none;
+    background: none;
+}
+

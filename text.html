@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style/text.css">
+    <title>Document</title>
+</head>
+<body>
+    <canvas id="c"></canvas>
+    <p>
+        Font-family:
+        <select id="font-family">
+            <option value="Times New Roman">Times New Roman</option>
+            <option value="Pacifico">Pacifico</option>
+            <option value="VT323">VT323</option>
+        </select>
+    </p>
+    <input id="text-color" type="color" value = "#FF0000" />
+    <img id="my-image"> </br>
+        <input type="file" onchange="onFileSelected(event)" id="file">
+
+        <input onchange="readURL(this);"  type="file" name="userfile" />
+        <img src="" id="blah"/>
+</body>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/fabric.js/451/fabric.min.js"></script>
+<script src="js/text.js"></script>
+</html>

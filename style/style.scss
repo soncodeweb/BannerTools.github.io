@@ -1,0 +1,49 @@
+body{
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    color: black;
+}
+input, button{ 
+    border: 1px solid #f0f0f0;
+}
+div{
+    h2{
+        text-align: center;
+    }
+    .bannerWrapper{
+        display: flex;
+        .banner{
+            .canvas{
+                // background-color: aqua;
+                border: 1px solid black;
+            }
+        }
+        .tools{
+            height: 700px;
+            h2{
+                text-align: center;
+            }
+            ul{
+                width: 100%;
+                padding-left: 0;
+                li{
+                    margin-bottom: 5px;
+                    #filereader{
+                        width: 100%;
+                    }
+                    #number{
+                        width: 50px;
+                    }
+                }
+            }
+       
+            width: 250px;
+            padding: 10px;
+            background-color: #bbb7b7;
+            button{
+                width: 100%;
+            }
+        }
+    }
+}

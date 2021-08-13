@@ -1,0 +1,61 @@
+body {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 100vh;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  color: black;
+}
+
+input, button {
+  border: 1px solid #f0f0f0;
+}
+
+div h2 {
+  text-align: center;
+}
+
+div .bannerWrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+div .bannerWrapper .banner .canvas {
+  border: 1px solid black;
+}
+
+div .bannerWrapper .tools {
+  height: 700px;
+  width: 250px;
+  padding: 10px;
+  background-color: #bbb7b7;
+}
+
+div .bannerWrapper .tools h2 {
+  text-align: center;
+}
+
+div .bannerWrapper .tools ul {
+  width: 100%;
+  padding-left: 0;
+}
+
+div .bannerWrapper .tools ul li {
+  margin-bottom: 5px;
+}
+
+div .bannerWrapper .tools ul li #filereader {
+  width: 100%;
+}
+
+div .bannerWrapper .tools ul li #number {
+  width: 50px;
+}
+
+div .bannerWrapper .tools button {
+  width: 100%;
+}
+/*# sourceMappingURL=style.css.map */
